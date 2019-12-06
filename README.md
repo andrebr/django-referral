@@ -26,8 +26,8 @@ lead him to your website.
 * django 1.7 migrations + legacy south support
 * No dependencies
 * 100% Test coverage
-* Supports django 1.4 - 1.8
-* supports python 2 + 3
+* Supports Django 1.4 - 2.2
+* supports Python 2 + 3
 
 ## Download
 
@@ -117,13 +117,16 @@ For full test in all supported environment (requires tox)
 	tox
 
 ## Changelog
+### V1.2.0
+* add Django 2.0 to 2.2 support
+
 ### V1.1.0
-* add django 1.8 to 1.11 support
+* add Django 1.8 to 1.11 support
 * (There seems to be an issue with python 3.5+ on travis right now)
 
 ### V1.0.0
-* add django 1.7 support
-* add pyton3 support
+* add Django 1.7 support
+* add Python 3 support
 * additional test cases
 * code cleanup
 * some pep8 fixes
